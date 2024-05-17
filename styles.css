@@ -28,7 +28,8 @@
     margin-right: 0px;
     color: white;
   }
-  .clear-all {
+ 
+  .clear-all button{
     width: 57px;
     height: 66px;
     border-radius: 10px;
@@ -41,10 +42,8 @@
     align-items: center;
     font-size: 25px;
     border: none;
-    cursor: cell;
     display: flex;
-    
- 
+    cursor: pointer;
   }
   .buttons {
     display: grid;
@@ -62,7 +61,7 @@
     color: white;
     font-size: 25px;
     border: none;
-    cursor: cell;
+    cursor: pointer;
  }
   .buttons button.orange{
     background-color: orange;
