@@ -18,7 +18,7 @@
     width: 100%;
     height: 60px;
     font-size: 36px;
-    text-align: right;git add 
+    text-align: right;
     padding: 5px;
     margin-top: -9px;
     border: none;
@@ -29,14 +29,19 @@
     color: white;
   }
   .clear-all {
-    display: grid;
-    justify-content: flex-end;
-    
-    
-    
-    
-    
-   
+    width: 57px;
+    height: 66px;
+    border-radius: 10px;
+    margin-bottom: -70px;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: none;
+    cursor: cell;
+    display: flex;
+ 
   }
   .buttons {
     display: grid;
